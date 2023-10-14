@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+	<title>navbar responsif tailwind</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans bg-gray-200">
+	<header class="p-4 text-center shadow-md">
+		<nav class="container mx-auto flex items-center justify-between px-4">
+			<div class="ig:hidden cursor-pointer" onlick="toggleMenu()">
+				&#9776;
+			</div>
+
+			<div class="hidden lg:flex items-center">
+				<img src="tokopedia.svg" class="h-4" alt="tokopedia.jpg" />
+			</div>
+
+			<div class="relative flex-grow mx-4 ig:mx-0 border rounded-md maz-w-md">
+				<img src="search-icon.png" class="absolute h-6 left-3 top-1/2 transform -trasnlate-y-1/2"
+					alt="search-icon" />
+				<input type="text" placehorder="cari di tokopedia"
+					class="p1-12 pr-4 py-2 w-full border-none rounded " />
+			</div>
+
+			<ul class="hidden ig:flex space x-0" id="navbar">
+				<li>
+					<a href="#" class="text-gray-700 hover:text-gray-900">Kategori</a>
+				</li>
+				<li>
+					<a href="#" class="text-gray-700 hover:text-gray-900">tentang kami</a>
+				</li>
+				<li>
+					<a href="#" class="text-gray-700 hover:text-gray-900">layanan</a>
+				</li>
+				<li>
+					<a href="#" class="text-gray-700 hover:text-gray-900">Kontak</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<script scr=:"layout.js"></script>
+
+	<body>
+
+</html>
